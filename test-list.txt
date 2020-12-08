@@ -1,0 +1,99 @@
+tests/test_module1.py:13: in test_site_path_import_module1
+    assert path_import, "Have you imported `Path` from `pathlib`?"
+E   AssertionError: Have you imported `Path` from `pathlib`?
+E   assert False
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       10% █         
+
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_site_class_module1 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:29: in test_site_class_module1
+    assert (
+E   AssertionError: Have you created a class called `Site` in the `site.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fcb477f0>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       20% ██        
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_site_create_dir_function_module1 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:89: in test_site_create_dir_function_module1
+    assert (
+E   AssertionError: Have you created a class called `Site` in the `site.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fcb45c40>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       30% ███       
+
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_site_create_dir_mkdir_module1 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:135: in test_site_create_dir_mkdir_module1
+    assert (
+E   AssertionError: Have you created a class called `Site` in the `site.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fcb47a00>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       40% ████      
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_site_build_function_module1 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:173: in test_site_build_function_module1
+    assert (
+E   AssertionError: Have you created a class called `Site` in the `site.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fe3d3bb0>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       50% █████     
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_site_path_rglob_module1 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:214: in test_site_path_rglob_module1
+    assert (
+E   AssertionError: Have you created a class called `Site` in the `site.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fe38d850>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       60% ██████    
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_ssg_imports_module1 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:277: in test_ssg_imports_module1
+    assert typer_import, "Are you importing `typer`?"
+E   AssertionError: Are you importing `typer`?
+E   assert False
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       70% ███████   
+
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_ssg_main_command_module1 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:296: in test_ssg_main_command_module1
+    assert (
+E   AssertionError: Have you created a function called `main` in the `ssg.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fe3d3d60>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       80% ████████  
+
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_ssg_build_call_module1 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:339: in test_ssg_build_call_module1
+    assert (
+E   AssertionError: Have you created a function called `main` in the `ssg.py` file?
+E   assert False
+E    +  where False = <conftest.SourceCode object at 0x7fe6fcb45b50>.exists
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                       90% █████████ 
+
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― test_ssg_typer_run_module1 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+tests/test_module1.py:374: in test_ssg_typer_run_module1
+    assert run_call_exist, "Are you calling `run()` on `typer` and passing in `main`?"
+E   AssertionError: Are you calling `run()` on `typer` and passing in `main`?
+E   assert False
+
+ tests/test_module1.py ⨯                                                                                                                                                                                                                                                                                      100% ██████████
+
+Results (0.45s):
+      10 failed
+         - tests/test_module1.py:5 test_site_path_import_module1
+         - tests/test_module1.py:16 test_site_class_module1
+         - tests/test_module1.py:78 test_site_create_dir_function_module1
+         - tests/test_module1.py:126 test_site_create_dir_mkdir_module1
+         - tests/test_module1.py:162 test_site_build_function_module1
+         - tests/test_module1.py:202 test_site_path_rglob_module1
+         - tests/test_module1.py:266 test_ssg_imports_module1
+         - tests/test_module1.py:283 test_ssg_main_command_module1
+         - tests/test_module1.py:330 test_ssg_build_call_module1
+         - tests/test_module1.py:358 test_ssg_typer_run_module1
+      36 deselected
